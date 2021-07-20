@@ -114,7 +114,7 @@ static inline int enabled_flags(void) {
   return flags;
 }
 
-#define SEEDHASH_EPOCH_BLOCKS	2048	/* Must be same as BLOCKS_SYNCHRONIZING_MAX_COUNT in cryptonote_config.h */
+#define SEEDHASH_EPOCH_BLOCKS	4069	/* Must be same as BLOCKS_SYNCHRONIZING_MAX_COUNT in cryptonote_config.h */
 #define SEEDHASH_EPOCH_LAG		64
 
 void rx_reorg(const uint64_t split_height) {
